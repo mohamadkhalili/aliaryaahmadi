@@ -12,14 +12,14 @@
         lg="6"
         xl="4"
       >
-        <WorkCard :data="Work"/>
+        <CardStyle1 :data="Work"/>
       </v-col>
     </v-row>
   </v-app>
 </template>
 
 <script>
-import WorkCard from "../components/WorkCard";
+import WorkCard from "../components/CardStyle1";
 
 export default {
   name: "works",
