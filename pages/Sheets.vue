@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-row no-gutters class="ma-2 ma-sm-5 ma-md-5 ma-lg-10 ma-xl-10" :style="style">
+    <v-row no-gutters class="ma-2 ma-sm-5 ma-md-5 ma-lg-10 ma-xl-10">
       <v-col
         class="mt-5"
         v-for="(Sheet, index) in Sheets"

@@ -239,21 +239,35 @@ export default {
       text: 'Fur Elise by L.V.Beethoven Arranged for solo Guitar by Ali Arya Ahmadian ',
       url: '/Sheets/1.pdf'
     },
-        p2: {
+    p2: {
       text: 'Minuet by J.S.Bach Arranged for solo Guitar by Ali Arya Ahmadian',
       url: '/Sheets/2.pdf'
     },
-        p3: {
+    p3: {
       text: 'Conquest of Paradise by  Vanglis Arranged for solo Guitar by Ali Arya Ahmadian',
       url: '/Sheets/3.pdf'
     },
-        p4: {
+    p4: {
       text: 'Alhambra by F.Tarrega Arranged for Guitar and Flute by Ali Arya Ahmadian',
       url: '/Sheets/4.pdf'
     },
-        p5: {
+    p5: {
       text: 'Lullaby for Guitar solo by Ali Arya Ahmadian',
       url: '/Sheets/5.pdf'
     },
+  },
+  Contact: {
+    p1: {
+      p1: 'کلاس های آنلاین و حضوری',
+      p2: '09212178078'
+    },
+    p2: {
+      p1: 'ایمیل',
+      p2: 'Ali.ahmadian.m@gmail.com'
+    },
+    p3: {
+      p1: 'آموزشگاه موسیقی مانلی',
+      p2: 'www.manelimusic.com'
+    }
   }
 }

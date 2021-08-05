@@ -255,5 +255,19 @@ export default {
       text: 'Lullaby for Guitar solo by Ali Arya Ahmadian',
       url: '/Sheets/5.pdf'
     },
+  },
+    Contact: {
+    p1: {
+      p1: 'For information about online class  contact with',
+      p2: '+98921278078'
+    },
+    p2: {
+      p1: 'Emain',
+      p2: 'Ali.ahmadian.m@gmail.com'
+    },
+    p3: {
+      p1: 'Elearn Website maneli',
+      p2: 'www.manelimusic.com'
+    }
   }
 }
