@@ -45,6 +45,7 @@
       absolute
       :right="this.$t('direction')=='rtl' ? true : false"
       temporary
+      height="100vh"
     >
       <v-list
         nav
@@ -97,3 +98,8 @@ export default {
   }
 }
 </script>
+<style>
+.v-overlay {
+  height: 100vh;
+}
+</style>

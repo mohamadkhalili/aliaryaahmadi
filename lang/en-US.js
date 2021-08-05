@@ -24,7 +24,7 @@ export default {
     },
     {
       name: 'Sheets',
-      title: 'Sheet Music edition and arrangement',
+      title: 'Sheets Music edition and arrangement',
       url: 'Sheets'
     },
     {
@@ -80,7 +80,7 @@ export default {
       p5: '•\tA collection of compact Classical Guitar lessons, recorded by Live studio 24, 2020, available online in www.livestudio24.com   ',
     },
     edit_music: {
-      subtitle: 'Sheet Music edition',
+      subtitle: 'Sheets Music edition',
       p1: '•\tClassical Guitar method Collected in 4 grades',
       p2: '•\tClassical Guitar on stage, 100 elementary level pieces from classical Guitar repertoire, publisher: Nay-o ney Publication 2021',
       p3: '•\tArrangements for Classical Guitar orchestra',
@@ -232,6 +232,28 @@ export default {
       text: '',
       url: '',
       img: '/gallery/12.jpg',
+    },
+  },
+  Sheets: {
+    p1: {
+      text: 'Fur Elise by L.V.Beethoven Arranged for solo Guitar by Ali Arya Ahmadian ',
+      url: '/Sheets/1.pdf'
+    },
+    p2: {
+      text: 'Minuet by J.S.Bach Arranged for solo Guitar by Ali Arya Ahmadian',
+      url: '/Sheets/2.pdf'
+    },
+    p3: {
+      text: 'Conquest of Paradise by  Vanglis Arranged for solo Guitar by Ali Arya Ahmadian',
+      url: '/Sheets/3.pdf'
+    },
+    p4: {
+      text: 'Alhambra by F.Tarrega Arranged for Guitar and Flute by Ali Arya Ahmadian',
+      url: '/Sheets/4.pdf'
+    },
+    p5: {
+      text: 'Lullaby for Guitar solo by Ali Arya Ahmadian',
+      url: '/Sheets/5.pdf'
     },
   }
 }
