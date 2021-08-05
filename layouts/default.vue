@@ -18,23 +18,23 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn icon>
+      <v-btn href="https://www.instagram.com/aliaryaahmadian/" icon>
         <v-icon :color="color_s">mdi-instagram</v-icon>
       </v-btn>
 
-      <v-btn icon>
+      <v-btn href="http://t.me/aliahmadianguitar" icon>
         <v-icon :color="color_s">mdi-telegram</v-icon>
       </v-btn>
 
-      <v-btn icon>
+      <v-btn href="https://www.youtube.com/channel/UCcJUKZX6R-g9dSm9g52j7JQ" icon>
         <v-icon :color="color_s">mdi-youtube</v-icon>
       </v-btn>
 
-      <v-btn icon>
+      <v-btn href="mailto: ali.ahmadian.m@gmail.com" icon>
         <v-icon :color="color_s">mdi-email</v-icon>
       </v-btn>
 
-      <v-btn icon>
+      <v-btn href="http://www.manelimusic.com" icon>
         <v-icon :color="color_s">mdi-podcast</v-icon>
       </v-btn>
     </v-app-bar>
