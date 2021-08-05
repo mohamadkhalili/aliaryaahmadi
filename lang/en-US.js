@@ -105,6 +105,47 @@ export default {
     }
   },
   Works: {
-
+    p1: {
+      title: 'Khab-e khakestary (Gray dream)',
+      subtitle: 'published by Ijaz ',
+      text: 'publication Tehran-Iran 2020',
+      url: '',
+      img: '/works/1.jpg',
+    },
+    p2: {
+      title: 'Shoope (pieces for Guitar solo) ',
+      subtitle: 'Composer and Guitar: Ali Arya Ahmadian',
+      text: 'publisher: Tehran University-Iran 2016',
+      url: '',
+      img: '/works/2.1.jpg',
+    },
+    p3: {
+      title: 'Sodadokht',
+      subtitle: 'directed by Talie Tarighi',
+      text: 'Publisher: Farhan Film, Teharan 2009',
+      url: '',
+      img: '/works/4.jpg',
+    },
+    p4: {
+      title: 'Simorgh',
+      subtitle: 'directed by Ghasem Hashemi, Composer, Tar and Setar: Ali Arya Ahmadian',
+      text: 'Publisher: Documentary and Experimental Film Center, Teharan 2009',
+      url: '',
+      img: '/works/5.1.jpg',
+    },
+    p5: {
+      title: 'Stormy sea',
+      subtitle: 'Singer: Salar Aghili, composer: Amin Bayat, Song writer: Ali Arya Ahmadian ',
+      text: 'Iran 2020',
+      url: '',
+      img: '/works/7.1.jpg',
+    },
+    p6: {
+      title: 'A collection of compact Classical Guitar lessons',
+      subtitle: 'recorded by Live studio 24, 2020',
+      text: '',
+      url: 'www.livestudio24.com',
+      img: '/works/9.jpg',
+    },
   }
 }
