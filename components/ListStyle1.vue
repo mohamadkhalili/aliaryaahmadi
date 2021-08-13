@@ -13,23 +13,10 @@
 <script>
 export default {
   name: "ListStyle1",
-  data() {
-    return {
-      work: null
-    }
-  },
   props: {
-    data: Object
+    work: Object
   },
-  watch: {
-    data: {
-      immediate: true,
-      deep: true,
-      handler(newV) {
-        this.work = newV
-      }
-    },
-  },
+
   computed: {
     height() {
       switch (this.$vuetify.breakpoint.name) {

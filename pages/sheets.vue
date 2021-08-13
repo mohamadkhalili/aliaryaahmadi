@@ -12,7 +12,7 @@
         lg="12"
         xl="12"
       >
-        <ListStyle1 :data="Sheet"/>
+        <ListStyle1 :work="Sheet"/>
       </v-col>
     </v-row>
   </v-app>

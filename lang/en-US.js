@@ -243,7 +243,7 @@ export default {
       img: '/smallgallery/12.jpg',
     },
   },
-  Sheets: {
+  sheets: {
     p1: {
       text: 'Fur Elise by L.V.Beethoven Arranged for solo Guitar by Ali Arya Ahmadian ',
       url: '/Sheets/1.pdf'
