@@ -69,6 +69,7 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
+      <div style="width: 100% !important;height: calc(100% - 350px);padding-top: calc(40vh - 60px)"> <nuxt-link to="/#"><v-img width="120px" style="margin-left: auto;margin-right: auto;margin-top: auto" src="/logo.jpg"></v-img></nuxt-link></div>
 
     </v-navigation-drawer>
     <v-main id="main">

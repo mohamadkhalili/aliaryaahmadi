@@ -13,32 +13,32 @@ export default {
     {
       name: 'Biography',
       title: 'Biography',
-      url: 'Biography'
+      url: 'biography'
     },
     {
       name: 'Works',
       title: 'Works',
-      url: 'Works'
+      url: 'works'
     },
     {
       name: 'Gallery',
       title: 'Gallery',
-      url: 'Gallery'
+      url: 'gallery'
     },
     {
       name: 'Sheets',
       title: 'sheets Music edition and arrangement',
-      url: 'Sheets'
+      url: 'sheets'
     },
     {
       name: 'Archive',
       title: 'Archive',
-      url: 'Archive'
+      url: 'archive'
     },
     {
       name: 'Contact',
       title: 'Contact',
-      url: 'Contact'
+      url: 'contact'
     }
   ],
   Biography: {
