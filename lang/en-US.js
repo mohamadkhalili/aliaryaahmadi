@@ -1,5 +1,8 @@
 export default {
-  main_title: 'Ali Arya Ahmadian Official Web site Musician, Composer  and Guitarist',
+  font: 'my_centure',
+  main_title: 'Ali Arya Ahmadian Official Web site',
+  main_subtitle: 'Musician, Composer  and Guitarist',
+  main_logo: '/logo.jpg',
   direction: 'ltr',
   items: [
     {
@@ -24,7 +27,7 @@ export default {
     },
     {
       name: 'Sheets',
-      title: 'Sheets Music edition and arrangement',
+      title: 'sheets Music edition and arrangement',
       url: 'Sheets'
     },
     {
@@ -41,7 +44,7 @@ export default {
   Biography: {
     p_public: {
       title: "Ali Ahmadian ",
-      subtitle: 'born on August 11, 1981, in Behshar, Iran',
+      subtitle: 'Born on August 11, 1981, in Behshar, Iran',
       p1: 'He started pursuing music professionally by learning the Setar and Persian traditional music in his teenage years. He gradually acquired an interest in classical music and chose the classical guitar to be his main instrument. After becoming proficient in fundamentals of playing the guitar, he continued his studies by working with Fakhrodin Kimiayi, Keyvan Mirhadi, Simon Aivazian, and Mehrdad Pakbaz. In 2001, he entered Tehran University’s College of Fine Arts as a music student. He completed his undergraduate studies with the thesis titled “Classical Guitar Recital” under the supervision of Dr. Ayvazian in 2007. In order to earn his masters degree in Music, Ali Ahmadian attended art University of Tehran where he graduated in 2011 with his performing thesis titled “Classical Guitar Recital” and his dissertation titled “Analysis of Lute Suite BWV996 by Johann Sebastian Bach under the supervision of Mehrdad Pakbaz. Ali Ahmadian has been studying the Setar and Persian music systems with Ali Yadollahi, Masoud Shoari, and Ali Bayani, while in the areas of music appreciation, composition and performance, he has been influenced and guided by Dr. Azin Movahed, Shahin Farhat, Sharif Lotfi, Hoshiar Khayam, and Farhad Fakhreddini.',
       p2: '',
       p3: '',
@@ -80,7 +83,7 @@ export default {
       p5: '•\tA collection of compact Classical Guitar lessons, recorded by Live studio 24, 2020, available online in www.livestudio24.com   ',
     },
     edit_music: {
-      subtitle: 'Sheets Music edition',
+      subtitle: 'sheets Music edition',
       p1: '•\tClassical Guitar method Collected in 4 grades',
       p2: '•\tClassical Guitar on stage, 100 elementary level pieces from classical Guitar repertoire, publisher: Nay-o ney Publication 2021',
       p3: '•\tArrangements for Classical Guitar orchestra',
@@ -107,6 +110,7 @@ export default {
   Works: {
     p1: {
       title: 'Khab-e khakestary (Gray dream)',
+      title2: '',
       subtitle: 'published by Ijaz ',
       text: 'publication Tehran-Iran 2020',
       url: '',
@@ -114,13 +118,15 @@ export default {
     },
     p2: {
       title: 'Shoope (pieces for Guitar solo) ',
+      title2: '',
       subtitle: 'Composer and Guitar: Ali Arya Ahmadian',
       text: 'publisher: Tehran University-Iran 2016',
-      url: '',
+      url: 'https://beeptunes.com/album/368421318',
       img: '/works/2.1.jpg',
     },
     p3: {
       title: 'Sodadokht',
+      title2: '',
       subtitle: 'directed by Talie Tarighi',
       text: 'Publisher: Farhan Film, Teharan 2009',
       url: '',
@@ -128,6 +134,7 @@ export default {
     },
     p4: {
       title: 'Simorgh',
+      title2: '',
       subtitle: 'directed by Ghasem Hashemi, Composer, Tar and Setar: Ali Arya Ahmadian',
       text: 'Publisher: Documentary and Experimental Film Center, Teharan 2009',
       url: '',
@@ -135,16 +142,18 @@ export default {
     },
     p5: {
       title: 'Stormy sea',
+      title2: '',
       subtitle: 'Singer: Salar Aghili, composer: Amin Bayat, Song writer: Ali Arya Ahmadian ',
       text: 'Iran 2020',
-      url: '',
+      url: 'https://beeptunes.com/track/78009160',
       img: '/works/7.1.jpg',
     },
     p6: {
       title: 'A collection of compact Classical Guitar lessons',
+      title2: '',
       subtitle: 'recorded by Live studio 24, 2020',
       text: '',
-      url: 'www.livestudio24.com',
+      url: 'https://livestudio24.ir/product/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%DA%AF%DB%8C%D8%AA%D8%A7%D8%B1-%DA%A9%D9%84%D8%A7%D8%B3%DB%8C%DA%A9-%D8%B9%D9%84%DB%8C-%D8%A2%D8%B1%DB%8C%D8%A7-%D8%A7%D8%AD%D9%85%D8%AF%DB%8C%D8%A7%D9%86-1/',
       img: '/works/9.jpg',
     },
   },
@@ -153,85 +162,85 @@ export default {
       title: 'Classical Guitar Recital',
       subtitle: '2014, Rudaki hall',
       text: '',
-      url: '',
-      img: '/gallery/1.jpg',
+      url: '/gallery/1.jpg',
+      img: '/smallgallery/1.jpg',
     },
     p2: {
       title: 'Classical Guitar Recital',
       subtitle: '2014, Rudaki hall',
       text: '',
-      url: '',
-      img: '/gallery/2.jpg',
+      url: '/gallery/2.jpg',
+      img: '/smallgallery/2.jpg',
     },
     p3: {
       title: 'Conducting Classical Guitar Orchestra',
       subtitle: 'Concert,2017, Andishe hall',
       text: '',
-      url: '',
-      img: '/gallery/3.jpg',
+      url: '/gallery/3.jpg',
+      img: '/smallgallery/3.jpg',
     },
     p4: {
       title: 'Conducting Classical Guitar Orchestra',
       subtitle: 'Concert,2016, Negarestan Museum of Teharan university ',
       text: '',
-      url: '',
-      img: '/gallery/4.jpg',
+      url: '/gallery/4.jpg',
+      img: '/smallgallery/4.jpg',
     },
     p5: {
       title: 'Practice with Guitar Orchestra',
       subtitle: '2015',
       text: '',
-      url: '',
-      img: '/gallery/5.jpg',
+      url: '/gallery/5.jpg',
+      img: '/smallgallery/5.jpg',
     },
     p6: {
       title: 'Conducting Classical Guitar Orchestra',
       subtitle: 'Concert,2015, Andishe hall',
       text: '',
-      url: '',
-      img: '/gallery/6.jpg',
+      url: '/gallery/6.jpg',
+      img: '/smallgallery/6.jpg',
     },
     p7: {
       title: 'Classical Guitar Recital',
       subtitle: '2006,with string quartet,  Avini hall, Tehran university',
       text: '',
-      url: '',
-      img: '/gallery/7.jpg',
+      url: '/gallery/7.jpg',
+      img: '/smallgallery/7.jpg',
     },
     p8: {
       title: 'With professor Simon Ayvazian',
       subtitle: 'Guitar professor, Tehran university 2008 ',
       text: '',
-      url: '',
-      img: '/gallery/8.jpg',
+      url: '/gallery/8.jpg',
+      img: '/smallgallery/8.jpg',
     },
     p9: {
       title: 'Appreciation seminar for Shoope ',
       subtitle: 'Negarestan center of Tehran university 2018 ',
       text: '',
-      url: '',
-      img: '/gallery/9.jpg',
+      url: '/gallery/9.jpg',
+      img: '/smallgallery/9.jpg',
     },
     p10: {
       title: 'Classical Guitar Recital',
       subtitle: '2018,Bayat Music Academy ',
       text: '',
-      url: '',
-      img: '/gallery/10.jpg',
+      url: '/gallery/10.jpg',
+      img: '/smallgallery/10.jpg',
     },
     p11: {
       title: 'Recording, Tar section for Sodadokht',
       subtitle: 'Farhan studio, Teharan 2009 ',
       text: '',
-      url: '',
-      img: '/gallery/11.jpg',
+      url: '/gallery/11.jpg',
+      img: '/smallgallery/11.jpg',
     },
     p12: {
       title: 'Music Theory class',
       subtitle: 'Maneli music academy',
       text: '',
-      url: '',
-      img: '/gallery/12.jpg',
+      url: '/gallery/12.jpg',
+      img: '/smallgallery/12.jpg',
     },
   },
   Sheets: {
@@ -256,7 +265,7 @@ export default {
       url: '/Sheets/5.pdf'
     },
   },
-    Contact: {
+  Contact: {
     p1: {
       p1: 'For information about online class  contact with',
       p2: '+98921278078'

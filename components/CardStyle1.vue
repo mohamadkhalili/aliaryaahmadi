@@ -1,17 +1,25 @@
 <template>
-  <v-card :href="data.url" class="ma-5" :max-width="height*2+'px'" :height="height+'px'" :style="'direction:' + this.$t('direction')">
-    <v-row :style="'direction:' + this.$t('direction')+';max-height: 100%'">
+  <v-card :href="data.url" class="ma-1" :max-width="width*2+'px'" :height="height+'px'"
+          :style="'direction:' + this.$t('direction')">
+    <v-row class="mr-2 ml-2 mt-auto mb-auto justify-center"
+           :style="'direction:' + this.$t('direction')+';height: 100%;width: 100%;'" align="center"
+           justify="center">
       <v-col
-        cols="4" class="pa-2" :style="'max-height: '+(height-10)+'px !important;'"
+        cols="4" class="pa-2 justify-center mt-auto mb-auto" style="height: 100% !important; display: flex" d-flex child-flex
       >
-        <v-img :src="data.img" style="margin: 5px;max-height: 100%"/>
+        <v-img class=" d-block justify-center mt-auto mb-auto" :src="data.img"
+               style="margin-right: 5px;margin-left:5px;max-height: 100%">
+
+        </v-img>
       </v-col>
       <v-col
         cols="8"
+        class="d-block justify-center mt-auto mb-auto"
       >
-        <h2 class="mb-2">{{ data.title }}</h2>
-        <h4 class="mb-6">{{ data.subtitle }}</h4>
-        <h5>{{ data.text }}</h5>
+        <h4 class="mb-2">{{ data.title }}</h4>
+        <h4 class="mb-2">{{ data.title2 ?  data.title2 : ''}}</h4>
+        <P class="mb-6">{{ data.subtitle }}</P>
+        <p>{{ data.text }}</p>
       </v-col>
     </v-row>
   </v-card>

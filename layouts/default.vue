@@ -34,8 +34,8 @@
         <v-icon :color="color_s">mdi-email</v-icon>
       </v-btn>
 
-      <v-btn href="http://www.manelimusic.com" icon>
-        <v-icon :color="color_s">mdi-podcast</v-icon>
+      <v-btn href="https://www.aparat.com/ALIARYAAHMADIAN/ALIARYAAHMADIAN" icon>
+        <v-img :color="color_s" src="/aparat.svg" height="25px" width="25px" contain></v-img>
       </v-btn>
     </v-app-bar>
     <v-navigation-drawer
@@ -71,7 +71,7 @@
       </v-list>
 
     </v-navigation-drawer>
-    <v-main>
+    <v-main id="main">
       <Nuxt/>
     </v-main>
   </v-card>
@@ -85,7 +85,7 @@ export default {
   data() {
     return {
       ffff: this.$t('right'),
-      color_p: "#FFCA28",
+      color_p: "#edefe5",
       color_s: "#006064",
       clipped: false,
       drawer: false,
@@ -101,5 +101,10 @@ export default {
 <style>
 .v-overlay {
   height: 100vh;
+}
+#main > .v-main__wrap {
+  background: url('/background.jpg') no-repeat center center fixed !important;
+  background-size: cover;
+  position: static;
 }
 </style>

@@ -1,5 +1,8 @@
 export default {
-  main_title: 'وب سایت رسمی علی آریا احمدیان نوازنده آهنگساز و مدرس موسیقی',
+  font: 'vazir_o',
+  main_title: 'وب سایت رسمی علی آریا احمدیان',
+  main_subtitle: 'نوازنده آهنگساز و مدرس موسیقی',
+  main_logo: '/logo.jpg',
   direction: 'rtl',
   items: [
     {
@@ -10,32 +13,32 @@ export default {
     {
       name: 'Biography',
       title: 'بيوگرافی',
-      url: 'Biography'
+      url: '/biography/'
     },
     {
       name: 'Works',
       title: 'آثار',
-      url: 'Works'
+      url: '/works/'
     },
     {
       name: 'Gallery',
       title: 'گالری',
-      url: 'Gallery'
+      url: '/gallery/'
     },
     {
       name: 'Sheets',
       title: 'نت نگاری و تنظیم',
-      url: 'Sheets'
+      url: '/Sheets/'
     },
     {
       name: 'Archive',
       title: 'آرشیو',
-      url: 'Archive'
+      url: '/archive/'
     },
     {
       name: 'Contact',
       title: 'تماس',
-      url: 'Contact'
+      url: '/contact/'
     }
   ],
   Biography: {
@@ -107,27 +110,31 @@ export default {
   Works: {
     p1: {
       title: 'خواب خاکستری',
-      subtitle: 'مجموعه غزل،',
+      title2: '',
+      subtitle: 'مجموعه غزل',
       text: 'نشر ایجاز  1399',
       url: '',
       img: '/works/1.jpg',
     },
     p2: {
       title: 'شوپه',
-      subtitle: '9 قطعه برای گیتار کلاسیک، تکنوازی گیتار و آهنگساز: علی آریا احمدیان',
+      title2: '9 قطعه برای گیتار کلاسیک',
+      subtitle: ' تکنوازی گیتار و آهنگساز: علی آریا احمدیان',
       text: 'امور فرهنگی دانشگاه تهران 1395',
-      url: '',
+      url: 'https://beeptunes.com/album/368421318',
       img: '/works/2.1.jpg',
     },
     p3: {
       title: 'سودادخت',
+      title2: '',
       subtitle: 'دی وی دی تئاتر تلوزیونی به کارگردانی طلیعه طریقی آهنگساز: علی آریا احمدیان',
       text: 'فرهنگ فیلم تهران 1388',
       url: '',
       img: '/works/4.jpg',
     },
     p4: {
-      title: 'انيميشن سيمرغ، اثر قاسم هاشمي',
+      title: 'انيميشن سيمرغ',
+      title2: 'اثر قاسم هاشمي',
       subtitle: 'آهنگساز و نوازنده سه‌تار و تار: علی آریا احمدیان',
       text: 'مركز گسترش سينماي مستند و تجربي 1388',
       url: '',
@@ -135,103 +142,117 @@ export default {
     },
     p5: {
       title: 'غزل تصنیف دریای طوفانی',
-      subtitle: 'آلبوم قصه باران، به آهنگسازی امین بیات و خوانندگی سالار عقیلی',
+      title2: 'آلبوم قصه باران',
+      subtitle: 'به آهنگسازی امین بیات و خوانندگی سالار عقیلی',
       text: 'نشر ایجاز  1399',
-      url: '',
+      url: 'https://beeptunes.com/track/78009160',
       img: '/works/7.1.jpg',
     },
     p6: {
       title: 'دوره آموزشی گیتار کلاسیک',
+      title2: '',
       subtitle: 'لایو استودیو 24',
       text: '',
-      url: 'http://www.livestudio24.com',
+      url: 'https://livestudio24.ir/product/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%DA%AF%DB%8C%D8%AA%D8%A7%D8%B1-%DA%A9%D9%84%D8%A7%D8%B3%DB%8C%DA%A9-%D8%B9%D9%84%DB%8C-%D8%A2%D8%B1%DB%8C%D8%A7-%D8%A7%D8%AD%D9%85%D8%AF%DB%8C%D8%A7%D9%86-1/',
       img: '/works/9.jpg',
     },
   },
   Gallerys: {
     p1: {
       title: 'رسیتال گیتار کلاسیک',
+      title2: '',
       subtitle: 'تالار رودکی 1392',
       text: '',
       url: '/gallery/1.jpg',
-      img: '/gallery/1.jpg',
+      img: '/smallgallery/1.jpg',
     },
     p2: {
       title: 'رسیتال گیتار کلاسیک',
+      title2: '',
       subtitle: 'تالار رودکی 1392',
       text: '',
       url: '/gallery/2.jpg',
-      img: '/gallery/2.jpg',
+      img: '/smallgallery/2.jpg',
     },
     p3: {
       title: 'اجرای ارکستر گیتار کلاسیک',
+      title2: '',
       subtitle: 'تالار اندیشه 1396',
       text: '',
       url: '/gallery/3.jpg',
-      img: '/gallery/3.jpg',
+      img: '/smallgallery/3.jpg',
     },
     p4: {
       title: 'اجرای ارکستر گیتار کلاسیک',
+      title2: '',
       subtitle: 'باغ نگارستان 1395',
       text: '',
       url: '/gallery/4.jpg',
-      img: '/gallery/4.jpg',
+      img: '/smallgallery/4.jpg',
     },
     p5: {
       title: 'تمرین ارکستر گیتار کلاسیک',
+      title2: '',
       subtitle: '1394',
       text: '',
       url: '/gallery/5.jpg',
-      img: '/gallery/5.jpg',
+      img: '/smallgallery/5.jpg',
     },
     p6: {
       title: 'اجرای ارکستر گیتار کلاسیک',
+      title2: '',
       subtitle: 'تالار اندیشه 1394',
       text: '',
       url: '/gallery/6.jpg',
-      img: '/gallery/6.jpg',
+      img: '/smallgallery/6.jpg',
     },
     p7: {
       title: 'رسیتال گیتار کلاسیک  با همراهی کوارتت زهی',
+      title2: '',
       subtitle: 'تالار آوینی هنرهای زیبا دانشگاه تهران 1384',
       text: '',
       url: '/gallery/7.jpg',
-      img: '/gallery/7.jpg',
+      img: '/smallgallery/7.jpg',
     },
     p8: {
       title: 'به همراه دکتر سیمون آیوازیان',
+      title2: '',
       subtitle: 'تالار آوینی هنرهای زیبا دانشگاه تهران 1386',
       text: '',
       url: '/gallery/8.jpg',
-      img: '/gallery/8.jpg',
+      img: '/smallgallery/8.jpg',
     },
     p9: {
       title: 'پس پرچین سکوت',
+      title2: '',
       subtitle: 'تقدیر از آلبوم شوپه و رونمایی از سه آلبوم دیگر از محصولات صوتی امورفرهنگی دانشگاه تهران',
       text: 'باغ نگارستان دانشگاه تهران 1396',
       url: '/gallery/9.jpg',
-      img: '/gallery/9.jpg',
+      img: '/smallgallery/9.jpg',
     },
     p10: {
       title: 'رسیتال گیتار کلاسیک',
+      title2: '',
       subtitle: 'آمفی تئاتر آکادمی بیات 1397',
       text: '',
       url: '/gallery/10.jpg',
-      img: '/gallery/10.jpg',
+      img: '/smallgallery/10.jpg',
     },
     p11: {
       title: 'ضبط موسیقی متن تئاتر سودادخت',
+      title2: '',
       subtitle: 'استودیو فرهنگ 1388',
       text: '',
       url: '/gallery/11.jpg',
-      img: '/gallery/11.jpg',
+      img: '/smallgallery/11.jpg',
     },
     p12: {
       title: 'دوره آموزشی تئوری موسیقی',
+      title2: '',
       subtitle: 'آموزشگاه مانلی',
       text: '',
       url: '/gallery/12.jpg',
-      img: '/gallery/12.jpg',
+      img: '/smallgallery/12.jpg',
     },
   },
   Sheets: {

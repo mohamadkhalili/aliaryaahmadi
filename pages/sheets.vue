@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app style="background-color: #00000000 !important;">
     <v-row no-gutters class="ma-2 ma-sm-5 ma-md-5 ma-lg-10 ma-xl-10">
       <v-col
         class="mt-5"
@@ -27,24 +27,24 @@ export default {
     return {
       Sheets: [
         {
-          text: this.$t('Sheets.p1.text'),
-          url: this.$t('Sheets.p1.url'),
+          text: this.$t('sheets.p1.text'),
+          url: this.$t('sheets.p1.url'),
         },
         {
-          text: this.$t('Sheets.p2.text'),
-          url: this.$t('Sheets.p2.url'),
+          text: this.$t('sheets.p2.text'),
+          url: this.$t('sheets.p2.url'),
         },
         {
-          text: this.$t('Sheets.p3.text'),
-          url: this.$t('Sheets.p3.url'),
+          text: this.$t('sheets.p3.text'),
+          url: this.$t('sheets.p3.url'),
         },
         {
-          text: this.$t('Sheets.p4.text'),
-          url: this.$t('Sheets.p4.url'),
+          text: this.$t('sheets.p4.text'),
+          url: this.$t('sheets.p4.url'),
         },
         {
-          text: this.$t('Sheets.p5.text'),
-          url: this.$t('Sheets.p5.url'),
+          text: this.$t('sheets.p5.text'),
+          url: this.$t('sheets.p5.url'),
         },
       ]
     }

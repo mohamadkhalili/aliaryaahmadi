@@ -1,15 +1,46 @@
 <template>
 
-  <div id="cropper"  style="height:calc(100vh - 60px) !important;">
-    <v-img id="main_img" :height="height+'%'" :src="main_img" style="background-position-x: center !important;background-position-y: center !important;"
+  <div id="cropper" style="height:calc(100vh - 60px) !important;">
+    <v-img id="main_img" :height="height+'%'" :src="main_img"
+           style="background-position-x: center !important;background-position-y: center !important;"
            aspect-ratio="1.8">
 
 
     </v-img>
 
-    <h1 class="text-center" color="#CDDC39" :style="style_main_title">
-      {{ $t('main_title') }}
-    </h1>
+    <v-row style="width: 60%;height: 20%;top: 0%;position: absolute; margin-top: 50px">
+      <v-col cols="12">
+        <v-row>
+          <v-col cols="10">
+            <h1 class="text-center" color="#CDDC39" :style="style_main_title">
+              {{ $t('main_title') }}
+            </h1>
+          </v-col>
+          <v-col cols="2" class="align-center text-center justify-center" justify-center>
+            <v-img class="text-center align-center" height="130px" width="166px" :src="$t('main_logo')"
+                   style="margin-top: 10% !important;width: 166px !important;height: 130px !important;" contain></v-img>
+          </v-col>
+
+        </v-row>
+
+
+      </v-col>
+      <v-col cols="12">
+        <v-row>
+          <v-col cols="10">
+            <h4 class="text-center" color="#CDDC39" :style="style_main_subtitle">
+              {{ $t('main_subtitle') }}
+            </h4>
+          </v-col>
+          <v-col cols="2" class="align-center text-center justify-center" justify-center>
+
+          </v-col>
+
+        </v-row>
+
+      </v-col>
+
+    </v-row>
   </div>
 
 </template>
@@ -17,9 +48,7 @@
 <script>
 export default {
   data() {
-    return {
-
-    }
+    return {}
   },
   computed: {
     height() {
@@ -53,15 +82,29 @@ export default {
     style_main_title() {
       switch (this.$vuetify.breakpoint.name) {
         case 'xs':
-          return "top: 40%;position: absolute !important;right: 3%;width: 340px;text-align: center;color: #FFCA28;font-size: 35px;line-height:1.8;font-family: vazir_o !important;"
+          return "text-align: center;color: #fdfff5;font-size: 35px;line-height:1.8;font-family: vazir_o !important;"
         case 'sm':
-          return "top: 40%;position: absolute !important;right: 10%;width: 580px;text-align: center;color: #FFCA28;font-size: 45px;line-height:1.8;font-family: vazir_o !important;"
+          return "text-align: center;color: #fdfff5;font-size: 40px;line-height:1.8;font-family: vazir_o !important;"
         case 'md':
-          return "top: 40%;position: absolute !important;right: 10%;width: 850px;text-align: center;color: #FFCA28;font-size: 60px;line-height:1.8;font-family: vazir_o !important;"
+          return "text-align: center;color: #fdfff5;font-size: 50px;line-height:1.8;font-family: vazir_o !important;"
         case 'lg':
-          return "top: 50%;position: absolute !important;right: 32%;width: 850px;text-align: center;color: #FFFFFF;font-size: 60px;line-height:1.8;font-family: vazir_o !important;"
+          return "text-align: center;color: #fdfff5;font-size: 55px;line-height:1.8;font-family: vazir_o !important;"
         case 'xl':
-          return "top: 40%;position: absolute !important;right: 50%;width: 850px;text-align: center;color: #FFFFFF;font-size: 60px;line-height:1.9;font-family: vazir_o !important;"
+          return "text-align: center;color: #fdfff5;font-size: 60px;line-height:1.9;font-family: vazir_o !important;"
+      }
+    },
+    style_main_subtitle() {
+      switch (this.$vuetify.breakpoint.name) {
+        case 'xs':
+          return "text-align: center;color: #fdfff5;font-size: 17px;line-height:1.8;font-family: vazir_o !important;"
+        case 'sm':
+          return "text-align: center;color: #fdfff5;font-size: 22px;line-height:1.8;font-family: vazir_o !important;"
+        case 'md':
+          return "text-align: center;color: #fdfff5;font-size: 30px;line-height:1.8;font-family: vazir_o !important;"
+        case 'lg':
+          return "text-align: center;color: #fdfff5;font-size: 30px;line-height:1.8;font-family: vazir_o !important;"
+        case 'xl':
+          return "text-align: center;color: #fdfff5;font-size: 30px;line-height:1.9;font-family: vazir_o !important;"
       }
     },
   },
