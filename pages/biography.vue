@@ -1,7 +1,17 @@
 <template>
-  <v-container :style="'font-family: '+ $t('font')+' !important'" >
-    <h2 class="ma-2" :style="style_title">{{ $t('Biography.p_public.title') }}</h2>
-    <h3 class="ma-4" :style="style_subtitle">{{ $t('Biography.p_public.subtitle') }}</h3>
+  <v-container :style="'font-family: '+ $t('font')+' !important'">
+    <v-row :style="'direction:' + this.$t('direction')">
+      <v-col cols="8">
+        <h2 class="ma-2" :style="style_title">{{ $t('Biography.p_public.title') }}</h2>
+        <h3 class="ma-4" :style="style_subtitle">{{ $t('Biography.p_public.subtitle') }}</h3>
+      </v-col>
+      <v-col cols="4" style="max-height: 41vh">
+        <a href="/bio.jpg">
+          <v-img src="/bio.jpg" style="max-height: 37vh" contain/>
+        </a>
+      </v-col>
+    </v-row>
+
     <p class="ma-4" :style="style_p">{{ $t('Biography.p_public.p1') }}</p>
     <p class="ma-4" :style="style_p">{{ $t('Biography.p_public.p2') }}</p>
     <p class="ma-4" :style="style_p">{{ $t('Biography.p_public.p3') }}</p>
@@ -52,9 +62,9 @@ export default {
   name: "bio",
   data() {
     return {
-      style_title: "direction:" + this.$t('direction') + ";line-height: 3; font-family: "+ this.$t('font')+" !important",
-      style_subtitle: "direction:" + this.$t('direction') + ";line-height: 2.3; font-family: "+ this.$t('font')+" !important",
-      style_p: "direction:" + this.$t('direction') + ";line-height: 2; font-family: "+ this.$t('font')+" !important"
+      style_title: "direction:" + this.$t('direction') + ";line-height: 3; font-family: " + this.$t('font') + " !important",
+      style_subtitle: "direction:" + this.$t('direction') + ";line-height: 2.3; font-family: " + this.$t('font') + " !important",
+      style_p: "direction:" + this.$t('direction') + ";line-height: 2; font-family: " + this.$t('font') + " !important"
     }
   }
 }

@@ -8,7 +8,7 @@ export default {
     {
       name: 'Home',
       title: 'Home',
-      url: ''
+      url: '#'
     },
     {
       name: 'Biography',
@@ -271,11 +271,11 @@ export default {
       p2: '+98921278078'
     },
     p2: {
-      p1: 'Emain',
+      p1: 'Email',
       p2: 'Ali.ahmadian.m@gmail.com'
     },
     p3: {
-      p1: 'Elearn Website maneli',
+      p1: 'Website maneli',
       p2: 'www.manelimusic.com'
     }
   }
