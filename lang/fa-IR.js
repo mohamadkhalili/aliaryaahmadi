@@ -8,7 +8,7 @@ export default {
     {
       name: 'Home',
       title: 'خانه',
-      url: '#'
+      url: '/#'
     },
     {
       name: 'Biography',
@@ -258,7 +258,7 @@ export default {
   sheets: {
     p1: {
       text: 'Fur Elise by L.V.Beethoven Arranged for solo Guitar by Ali Arya Ahmadian ',
-      url: '/Sheets/1.pdf'
+      url: '/sheets/1.pdf'
     },
     p2: {
       text: 'Minuet by J.S.Bach Arranged for solo Guitar by Ali Arya Ahmadian',
@@ -266,15 +266,15 @@ export default {
     },
     p3: {
       text: 'Conquest of Paradise by  Vanglis Arranged for solo Guitar by Ali Arya Ahmadian',
-      url: '/Sheets/3.pdf'
+      url: '/sheets/3.pdf'
     },
     p4: {
       text: 'Alhambra by F.Tarrega Arranged for Guitar and Flute by Ali Arya Ahmadian',
-      url: '/Sheets/4.pdf'
+      url: '/sheets/4.pdf'
     },
     p5: {
       text: 'Lullaby for Guitar solo by Ali Arya Ahmadian',
-      url: '/Sheets/5.pdf'
+      url: '/sheets/5.pdf'
     },
   },
   Contact: {

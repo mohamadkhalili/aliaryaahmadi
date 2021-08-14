@@ -9,7 +9,7 @@
         xs="12"
         sm="12"
         md="6"
-        lg="6"
+        lg="4"
         xl="4"
       >
         <CardStyle1 :data="gallery"/>

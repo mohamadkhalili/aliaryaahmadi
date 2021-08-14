@@ -8,7 +8,7 @@ export default {
     {
       name: 'Home',
       title: 'Home',
-      url: '#'
+      url: '/#'
     },
     {
       name: 'Biography',

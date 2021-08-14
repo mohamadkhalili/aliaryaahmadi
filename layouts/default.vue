@@ -42,9 +42,11 @@
       v-model="drawer"
       class="deep-purple accent-4"
       :color="color_p"
-      absolute
-      :right="this.$t('direction')=='rtl' ? true : false"
+      app
+      fixed
+      style="z-index: 100 !important;"
       temporary
+      :right="this.$t('direction')=='rtl' ? true : false"
       height="100vh"
     >
       <v-list
@@ -107,5 +109,8 @@ export default {
   background: url('/background.jpg') no-repeat center center fixed !important;
   background-size: cover;
   position: static;
+}
+.v-overlay__scrim , .v-overlay{
+  z-index: 90 !important;
 }
 </style>
