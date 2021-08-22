@@ -8,9 +8,9 @@
         cols="4" class="pa-2 justify-center mt-auto mb-auto" style="height: 100% !important; display: flex" d-flex child-flex
       >
         <v-img class=" d-block justify-center mt-auto mb-auto" :src="data.img"
-               style="margin-right: 5px;margin-left:5px;max-height: 100%">
-
-        </v-img>
+               style="margin-right: 5px;margin-left:5px;max-height: 100%"
+               :alt="data.title"
+        />
       </v-col>
       <v-col
         cols="8"

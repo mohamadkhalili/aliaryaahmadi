@@ -8,7 +8,7 @@ export default {
     {
       name: 'Home',
       title: 'Home',
-      url: '/#'
+      url: '#'
     },
     {
       name: 'Biography',
@@ -160,6 +160,7 @@ export default {
   Gallerys: {
     p1: {
       title: 'Classical Guitar Recital',
+      title2: '',
       subtitle: '2014, Rudaki hall',
       text: '',
       url: '/gallery/1.jpg',
@@ -167,6 +168,7 @@ export default {
     },
     p2: {
       title: 'Classical Guitar Recital',
+      title2: '',
       subtitle: '2014, Rudaki hall',
       text: '',
       url: '/gallery/2.jpg',
@@ -174,6 +176,7 @@ export default {
     },
     p3: {
       title: 'Conducting Classical Guitar Orchestra',
+      title2: '',
       subtitle: 'Concert,2017, Andishe hall',
       text: '',
       url: '/gallery/3.jpg',
@@ -181,6 +184,7 @@ export default {
     },
     p4: {
       title: 'Conducting Classical Guitar Orchestra',
+      title2: '',
       subtitle: 'Concert,2016, Negarestan Museum of Teharan university ',
       text: '',
       url: '/gallery/4.jpg',
@@ -188,6 +192,7 @@ export default {
     },
     p5: {
       title: 'Practice with Guitar Orchestra',
+      title2: '',
       subtitle: '2015',
       text: '',
       url: '/gallery/5.jpg',
@@ -195,6 +200,7 @@ export default {
     },
     p6: {
       title: 'Conducting Classical Guitar Orchestra',
+      title2: '',
       subtitle: 'Concert,2015, Andishe hall',
       text: '',
       url: '/gallery/6.jpg',
@@ -202,6 +208,7 @@ export default {
     },
     p7: {
       title: 'Classical Guitar Recital',
+      title2: '',
       subtitle: '2006,with string quartet,  Avini hall, Tehran university',
       text: '',
       url: '/gallery/7.jpg',
@@ -209,6 +216,7 @@ export default {
     },
     p8: {
       title: 'With professor Simon Ayvazian',
+      title2: '',
       subtitle: 'Guitar professor, Tehran university 2008 ',
       text: '',
       url: '/gallery/8.jpg',
@@ -216,6 +224,7 @@ export default {
     },
     p9: {
       title: 'Appreciation seminar for Shoope ',
+      title2: '',
       subtitle: 'Negarestan center of Tehran university 2018 ',
       text: '',
       url: '/gallery/9.jpg',
@@ -223,6 +232,7 @@ export default {
     },
     p10: {
       title: 'Classical Guitar Recital',
+      title2: '',
       subtitle: '2018,Bayat Music Academy ',
       text: '',
       url: '/gallery/10.jpg',
@@ -230,6 +240,7 @@ export default {
     },
     p11: {
       title: 'Recording, Tar section for Sodadokht',
+      title2: '',
       subtitle: 'Farhan studio, Teharan 2009 ',
       text: '',
       url: '/gallery/11.jpg',
@@ -237,6 +248,7 @@ export default {
     },
     p12: {
       title: 'Music Theory class',
+      title2: '',
       subtitle: 'Maneli music academy',
       text: '',
       url: '/gallery/12.jpg',
