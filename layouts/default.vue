@@ -23,7 +23,7 @@
       </v-btn>
 
       <v-btn href="http://t.me/aliahmadianguitar" icon>
-        <v-icon :color="color_s">mdi-telegram</v-icon>
+        <v-icon :color="color_s">mdi-send mdi-rotate-315</v-icon>
       </v-btn>
 
       <v-btn href="https://www.youtube.com/channel/UCcJUKZX6R-g9dSm9g52j7JQ" icon>
