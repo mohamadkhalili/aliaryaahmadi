@@ -12,14 +12,14 @@
         lg="4"
         xl="4"
       >
-        <CardStyle1 :data="Work"/>
+        <work-card :data="Work"/>
       </v-col>
     </v-row>
   </v-app>
 </template>
 
 <script>
-import WorkCard from "../components/CardStyle1";
+import WorkCard from "../components/WorkCard";
 
 export default {
   name: "works",
@@ -28,6 +28,14 @@ export default {
     return {
       style: 'direction:' + this.$t('direction'),
       Works: [
+        {
+          title: this.$t('Works.p001.title'),
+          title2: this.$t('Works.p001.title2'),
+          subtitle: this.$t('Works.p001.subtitle'),
+          text: this.$t('Works.p001.text'),
+          img: this.$t('Works.p001.img'),
+          url: this.$t('Works.p001.url')
+        },
         {
           title: this.$t('Works.p1.title'),
           title2: this.$t('Works.p1.title2'),

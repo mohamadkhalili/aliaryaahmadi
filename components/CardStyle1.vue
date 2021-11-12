@@ -27,7 +27,7 @@
 
 <script>
 export default {
-  name: "WorkCard",
+  name: "CardStyle1",
   data() {
     return {
       work: null

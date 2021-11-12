@@ -108,12 +108,20 @@ export default {
     }
   },
   Works: {
+    p001: {
+      title: 'کتاب گیتار کلاسیک روی صحنه',
+      title2: '',
+      subtitle: 'گردآوری و ویرایش: علی آریا احمدیان',
+      text: 'ناشر: نشر نای و نی',
+      url: [{url:'http://www.nayoney.com/Book/199/گیتار-کلاسیک-روی-صحنه#',icon:'/nayoney-logo.png'}],
+      img: '/works/001.jpg',
+    },
     p1: {
       title: 'خواب خاکستری',
       title2: '',
       subtitle: 'مجموعه غزل',
       text: 'نشر ایجاز  ۱۳۹۹',
-      url: '',
+      url: [],
       img: '/works/1.jpg',
     },
     p2: {
@@ -121,7 +129,12 @@ export default {
       title2: '۹ قطعه برای گیتار کلاسیک',
       subtitle: ' تکنوازی گیتار و آهنگساز: علی آریا احمدیان',
       text: 'امور فرهنگی دانشگاه تهران ۱۳۹۵',
-      url: 'https://beeptunes.com/album/368421318',
+      url: [
+        {url:'https://beeptunes.com/album/368421318',icon:'/beeptunes-logo.svg'},
+        {url:'https://music.amazon.com/artists/B09FF31584/ali-arya-ahmadian',icon:'/logo_amazon.svg'},
+        {url:'https://open.spotify.com/album/3SpMikMPI6SpVQP5fSYEtZ?si=Fbey2gnCQxyOJafWZ1jrwQ&dl_branch=1',icon:'/logo_spotify.svg'},
+        {url:'https://music.apple.com/us/album/shoope/1584377227',icon:'/logo_apple.svg'}
+      ],
       img: '/works/2.1.jpg',
     },
     p3: {
@@ -129,7 +142,7 @@ export default {
       title2: '',
       subtitle: 'دی وی دی تئاتر تلوزیونی به کارگردانی طلیعه طریقی آهنگساز: علی آریا احمدیان',
       text: 'فرهنگ فیلم تهران ۱۳۸۸',
-      url: '',
+      url: [],
       img: '/works/4.jpg',
     },
     p4: {
@@ -137,7 +150,7 @@ export default {
       title2: 'اثر قاسم هاشمی',
       subtitle: 'آهنگساز و نوازنده سه‌تار و تار: علی آریا احمدیان',
       text: 'مركز گسترش سینمای مستند و تجربی ۱۳۸۸',
-      url: '',
+      url: [],
       img: '/works/5.1.jpg',
     },
     p5: {
@@ -145,7 +158,7 @@ export default {
       title2: 'آلبوم قصه باران',
       subtitle: 'به آهنگسازی امین بیات و خوانندگی سالار عقیلی',
       text: 'نشر ایجاز  ۱۳۹۹',
-      url: 'https://beeptunes.com/track/78009160',
+      url: [{url:'https://beeptunes.com/track/78009160',icon:'/beeptunes-logo.svg'}],
       img: '/works/7.1.jpg',
     },
     p6: {
@@ -153,7 +166,7 @@ export default {
       title2: '',
       subtitle: 'لایو استودیو ۲۴',
       text: '',
-      url: 'https://livestudio24.ir/product/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%DA%AF%DB%8C%D8%AA%D8%A7%D8%B1-%DA%A9%D9%84%D8%A7%D8%B3%DB%8C%DA%A9-%D8%B9%D9%84%DB%8C-%D8%A2%D8%B1%DB%8C%D8%A7-%D8%A7%D8%AD%D9%85%D8%AF%DB%8C%D8%A7%D9%86-1/',
+      url: [{url:'https://livestudio24.ir/product/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%DA%AF%DB%8C%D8%AA%D8%A7%D8%B1-%DA%A9%D9%84%D8%A7%D8%B3%DB%8C%DA%A9-%D8%B9%D9%84%DB%8C-%D8%A2%D8%B1%DB%8C%D8%A7-%D8%A7%D8%AD%D9%85%D8%AF%DB%8C%D8%A7%D9%86-1/',icon:'/live-studio.png'}],
       img: '/works/9.jpg',
     },
   },

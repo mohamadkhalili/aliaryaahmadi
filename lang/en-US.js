@@ -108,12 +108,20 @@ export default {
     }
   },
   Works: {
+    p001: {
+      title: 'Classical Guitar on Stage',
+      title2: '',
+      subtitle: '100 pieces from classical Guitar repertoire for elementary level',
+      text: 'Edited by: Ali Arya Ahmadian',
+     url: [{url:'http://www.nayoney.com/Book/199/گیتار-کلاسیک-روی-صحنه#',icon:'/nayoney-logo.png'}],
+      img: '/works/001e.jpg',
+    },
     p1: {
       title: 'Khab-e khakestary (Gray dream)',
       title2: '',
       subtitle: 'published by Ijaz ',
       text: 'publication Tehran-Iran 2020',
-      url: '',
+      url: [],
       img: '/works/1.jpg',
     },
     p2: {
@@ -121,7 +129,12 @@ export default {
       title2: '',
       subtitle: 'Composer and Guitar: Ali Arya Ahmadian',
       text: 'publisher: Tehran University-Iran 2016',
-      url: 'https://beeptunes.com/album/368421318',
+      url: [
+        {url:'https://beeptunes.com/album/368421318',icon:'/beeptunes-logo.svg'},
+        {url:'https://music.amazon.com/artists/B09FF31584/ali-arya-ahmadian',icon:'/logo_amazon.svg'},
+        {url:'https://open.spotify.com/album/3SpMikMPI6SpVQP5fSYEtZ?si=Fbey2gnCQxyOJafWZ1jrwQ&dl_branch=1',icon:'/logo_spotify.svg'},
+        {url:'https://music.apple.com/us/album/shoope/1584377227',icon:'/logo_apple.svg'}
+      ],
       img: '/works/2.1.jpg',
     },
     p3: {
@@ -129,7 +142,7 @@ export default {
       title2: '',
       subtitle: 'directed by Talie Tarighi',
       text: 'Publisher: Farhan Film, Teharan 2009',
-      url: '',
+      url: [],
       img: '/works/4.jpg',
     },
     p4: {
@@ -137,7 +150,7 @@ export default {
       title2: '',
       subtitle: 'directed by Ghasem Hashemi, Composer, Tar and Setar: Ali Arya Ahmadian',
       text: 'Publisher: Documentary and Experimental Film Center, Teharan 2009',
-      url: '',
+      url: [],
       img: '/works/5.1.jpg',
     },
     p5: {
@@ -145,7 +158,7 @@ export default {
       title2: '',
       subtitle: 'Singer: Salar Aghili, composer: Amin Bayat, Song writer: Ali Arya Ahmadian ',
       text: 'Iran 2020',
-      url: 'https://beeptunes.com/track/78009160',
+      url: [{url:'https://beeptunes.com/track/78009160',icon:'/beeptunes-logo.svg'}],
       img: '/works/7.1.jpg',
     },
     p6: {
@@ -153,7 +166,7 @@ export default {
       title2: '',
       subtitle: 'recorded by Live studio 24, 2020',
       text: '',
-      url: 'https://livestudio24.ir/product/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%DA%AF%DB%8C%D8%AA%D8%A7%D8%B1-%DA%A9%D9%84%D8%A7%D8%B3%DB%8C%DA%A9-%D8%B9%D9%84%DB%8C-%D8%A2%D8%B1%DB%8C%D8%A7-%D8%A7%D8%AD%D9%85%D8%AF%DB%8C%D8%A7%D9%86-1/',
+      url: [{url:'https://livestudio24.ir/product/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%DA%AF%DB%8C%D8%AA%D8%A7%D8%B1-%DA%A9%D9%84%D8%A7%D8%B3%DB%8C%DA%A9-%D8%B9%D9%84%DB%8C-%D8%A2%D8%B1%DB%8C%D8%A7-%D8%A7%D8%AD%D9%85%D8%AF%DB%8C%D8%A7%D9%86-1/',icon:'/live-studio.png'}],
       img: '/works/9.jpg',
     },
   },
