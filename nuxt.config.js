@@ -9,20 +9,17 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - aliaryaahmadi',
-    title: 'aliaryaahmadi',
-    htmlAttrs: {
-      lang: 'en'
-    },
+    title: 'علی آریا احمدیان',
     meta: [
-      {charset: 'utf-8'},
-      {name: 'viewport', content: 'width=device-width, initial-scale=1'},
-      {hid: 'description', name: 'description', content: ''},
-      {name: 'format-detection', content: 'telephone=no'}
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'وب سایت رسمی علی آریا احمدیان نوازنده آهنگساز و مدرس موسیقی'
+      }
     ],
-    link: [
-      {rel: 'icon', type: 'image/x-icon', href: 'favicon.ico'}
-    ]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
 
   css: [

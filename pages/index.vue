@@ -3,6 +3,7 @@
   <div id="cropper" style="height:calc(100vh - 60px) !important;padding: 50px">
     <v-img id="main_img" :height="height+'%'" :src="main_img"
            style="background-position-x: center !important;background-position-y: center !important;"
+           alt="علی آریا احمدیان"
            aspect-ratio="1.8">
 
 

@@ -12,15 +12,17 @@
         lg="4"
         xl="4"
       >
-        <CardStyle1 :data="gallery"/>
+        <card-style1 :data="gallery"/>
       </v-col>
     </v-row>
   </v-app>
 </template>
 
 <script>
+import CardStyle1 from "../components/CardStyle1";
 export default {
   name: "gallery",
+  components: {CardStyle1},
   data() {
     return {
       style: 'direction:' + this.$t('direction'),

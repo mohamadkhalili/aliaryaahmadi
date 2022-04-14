@@ -7,7 +7,7 @@
       </v-col>
       <v-col cols="4" style="max-height: 41vh">
         <a href="/bio.jpg">
-          <v-img src="/bio.jpg" style="max-height: 37vh" contain/>
+          <v-img src="/bio.jpg" alt="علی آریا احمدیان" style="max-height: 37vh" contain/>
         </a>
       </v-col>
     </v-row>

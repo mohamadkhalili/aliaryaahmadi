@@ -42,6 +42,7 @@
                 :href="address.url">
                 <v-img
                   :src="address.icon"
+                  :alt="data.title"
                   contain
                   height="100%"
                   max-width="150px"
