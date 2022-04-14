@@ -3,6 +3,11 @@
 ## Build Setup
 
 ```bash
+# address project in server 
+$ cd /home/akh/aliaryaahmadi
+$ sudo systemctl reload nginx.service
+
+
 # install dependencies
 $ npm install
 

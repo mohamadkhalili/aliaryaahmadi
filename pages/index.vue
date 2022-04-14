@@ -5,13 +5,13 @@
            style="background-position-x: center !important;background-position-y: center !important;"
            alt="علی آریا احمدیان"
            aspect-ratio="1.8">
-
-
     </v-img>
 
-    <v-row style="width: auto;height: 20%;top: 0%;left: 0px;display: block;position: absolute; margin-top: 110px; max-width: 30%;margin-left: 55px">
+    <v-row
+      style="width: auto;height: 20%;top: 0%;left: 0px;display: block;position: absolute; margin-top: 110px; max-width: 30%;margin-left: 55px">
       <v-col cols="12">
-        <v-img width="120px" style="margin-left: auto;margin-right: auto;margin-top: auto" src="/logo.jpg"></v-img>
+        <v-img width="120px" style="margin-left: auto;margin-right: auto;margin-top: auto" :alt="$t('main_title')"
+               src="/logo.jpg"></v-img>
       </v-col>
       <v-col cols="12">
         <h1 class="text-center" color="#CDDC39" :style="style_main_title">
