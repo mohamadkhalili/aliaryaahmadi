@@ -59,7 +59,7 @@
 
 <script>
 export default {
-  name: "bio",
+  name: "biography",
   data() {
     return {
       style_title: "direction:" + this.$t('direction') + ";line-height: 3; font-family: " + this.$t('font') + " !important",
